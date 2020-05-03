@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/splash_fragment">
+
+    <fragment
+        android:id="@+id/splash_fragment"
+        android:name="com.infinitumcode.mymovieapp.view.ui.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_navigation_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/splash_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.infinitumcode.mymovieapp.view.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.infinitumcode.mymovieapp.view.ui.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.infinitumcode.mymovieapp.view.ui.find.FindFragment"
+        android:label="@string/title_find"
+        tools:layout="@layout/fragment_find" />
+
+    <fragment
+        android:id="@+id/navigation_child"
+        android:name="com.infinitumcode.mymovieapp.view.ui.child.ChildFragment"
+        android:label="@string/title_child"
+        tools:layout="@layout/fragment_child" />
+
+    <fragment
+        android:id="@+id/navigation_popular"
+        android:name="com.infinitumcode.mymovieapp.view.ui.popular.PopularFragment"
+        android:label="@string/title_popular"
+        tools:layout="@layout/popular_fragment" />
+
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:name="com.infinitumcode.mymovieapp.view.ui.detail.DetailFragment"
+        android:label="detail_fragment"
+        tools:layout="@layout/fragment_detail" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.infinitumcode.mymovieapp.view.ui.setting.SettingsFragment"
+        android:label="@string/title_setting" />
+
+
+</navigation>

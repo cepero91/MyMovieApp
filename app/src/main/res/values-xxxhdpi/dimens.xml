@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="movie_h">240dp</dimen>
+    <dimen name="nav_header_h">220dp</dimen>
+    <dimen name="nav_header_mt">54dp</dimen>
+</resources>

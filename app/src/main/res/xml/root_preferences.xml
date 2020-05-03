@@ -1,0 +1,70 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:key="menu_category" app:title="Navegacion">
+
+        <ListPreference
+            app:defaultValue="navigation_favorite"
+            app:entries="@array/menu_entries"
+            app:entryValues="@array/menu_values"
+            app:key="menu"
+            app:title="@string/menu_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="menu_favorite"
+        app:title="Personalizacion">
+
+        <EditTextPreference
+            app:key="favorite_menu"
+            app:title="Nombre/Label"
+            app:defaultValue="Favoritos"
+            app:useSimpleSummaryProvider="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="favorite_visible"
+            app:title="Visible"
+            app:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="menu_child"
+        app:title="Personalizacion"
+        app:isPreferenceVisible="false">
+
+        <EditTextPreference
+            app:key="child_menu"
+            app:title="Nombre/Label"
+            app:defaultValue="Para niños"
+            app:useSimpleSummaryProvider="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="child_visible"
+            app:title="Visible"
+            app:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="menu_popular"
+        app:title="Personalizacion"
+        app:isPreferenceVisible="false">
+
+        <EditTextPreference
+            app:key="popular_menu"
+            app:title="Nombre/Label"
+            app:defaultValue="Populares"
+            app:useSimpleSummaryProvider="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="popular_visible"
+            app:title="Visible"
+            app:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
