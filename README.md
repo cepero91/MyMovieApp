@@ -39,27 +39,10 @@
   </p>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Screenshot
+|<img src="https://github.com/cepero91/MyMovieApp/blob/master/screenshot/splash.jpg" alt="splash" width="200">|||
+||||
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
