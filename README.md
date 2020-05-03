@@ -28,8 +28,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/cepero91/MyMovieApp">
-    <img src="/blob/master/app/web_hi_res_512.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/cepero91/MyMovieApp/blob/master/app/web_hi_res_512.png">
+    <img src="https://github.com/cepero91/MyMovieApp/blob/master/app/web_hi_res_512.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">YOUR_TITLE</h3>
