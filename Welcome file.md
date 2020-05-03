@@ -1,5 +1,5 @@
 
-|  |  |
+|  ![Splash](https://github.com/cepero91/MyMovieApp/blob/master/screenshot/splash.jpg)|  |
 |--|--|
 |  |  |
 
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwOTY5NDg3LDEwMTY1NTU1OTksLTExMj
-g5ODQ2ODldfQ==
+eyJoaXN0b3J5IjpbLTIxMjQyNTIwNTksMTAxNjU1NTU5OSwtMT
+EyODk4NDY4OV19
 -->
