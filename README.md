@@ -65,10 +65,14 @@
 </table>
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Tecnologías
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Android Jetpack 
+2. MVVM 
+3. Dagger2
+4. Retrofit3
+5. Livedata
+6. Coroutines
+7. Single Activity Pattern
+8. Material Design
+9. Preference
