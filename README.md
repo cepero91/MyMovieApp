@@ -60,7 +60,7 @@
   <tr>
     <td><img src="https://github.com/cepero91/MyMovieApp/blob/master/screenshot/movie_detail.jpg" alt="splash" width="200"></td>
     <td><img src="https://github.com/cepero91/MyMovieApp/blob/master/screenshot/favorite.jpg" alt="splash" width="200"></td>
-    <td><img src="https://github.com/cepero91/MyMovieApp/blob/master/screenshot/movie_detail.jpg" alt="splash" width="200"></td>
+    <td><img src="https://github.com/cepero91/MyMovieApp/blob/master/screenshot/child.jpg" alt="splash" width="200"></td>
   </tr>
 </table>
 
