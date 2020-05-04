@@ -10,7 +10,7 @@
     Aplicación android para consulta TMDb API
   </p>
 </p>
-<p align="center>
+<p align="center">
   <a href="https://github.com/cepero91/MyMovieApp/blob/master/MovieApp-debug.apk">
     Descárgala aquí
   </a>
