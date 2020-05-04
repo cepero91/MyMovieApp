@@ -4,7 +4,9 @@
   <a href="https://github.com/cepero91/MyMovieApp/blob/master/app/web_hi_res_512.png">
     <img src="https://github.com/cepero91/MyMovieApp/blob/master/app/web_hi_res_512.png" alt="Logo" width="80" height="80">
   </a>
-
+  <a href="https://github.com/cepero91/MyMovieApp/blob/master/MovieApp-debug.apk">
+    Descárgala aquí
+  </a>
   <h3 align="center">MOVIEAPP</h3>
 
   <p align="center">
@@ -40,6 +42,12 @@
 <!-- CONTRIBUTING -->
 ## Tecnologías
 
+1. Android Studio 3.6.3 
+2. Kotlin version 1.3.71
+3. Gradle distributions 6.3-all.zip
+
+## Frameworks y recursos utilizados
+
 1. Android Jetpack 
 2. MVVM 
 3. Dagger2
@@ -49,3 +57,4 @@
 7. Single Activity Pattern
 8. Material Design
 9. Preference
+10. Picasso
