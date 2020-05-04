@@ -11,7 +11,7 @@
   </p>
 </p>
 <p align="center">
-  <a href="https://github.com/cepero91/MyMovieApp/blob/master/MovieApp-debug.apk">
+  <a href="https://github.com/cepero91/MyMovieApp/raw/master/MovieApp-debug.apk">
     Descárgala aquí
   </a>
 </p>
