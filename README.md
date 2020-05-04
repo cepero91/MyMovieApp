@@ -60,3 +60,6 @@
 8. Material Design
 9. Preference
 10. Picasso
+
+### Algunas aclaraciones
+
