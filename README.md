@@ -4,14 +4,16 @@
   <a href="https://github.com/cepero91/MyMovieApp/blob/master/app/web_hi_res_512.png">
     <img src="https://github.com/cepero91/MyMovieApp/blob/master/app/web_hi_res_512.png" alt="Logo" width="80" height="80">
   </a>
-  <a href="https://github.com/cepero91/MyMovieApp/blob/master/MovieApp-debug.apk">
-    Descárgala aquí
-  </a>
   <h3 align="center">MOVIEAPP</h3>
 
   <p align="center">
     Aplicación android para consulta TMDb API
   </p>
+</p>
+<p align="center>
+  <a href="https://github.com/cepero91/MyMovieApp/blob/master/MovieApp-debug.apk">
+    Descárgala aquí
+  </a>
 </p>
 
 <!-- ABOUT THE PROJECT -->
