@@ -17,7 +17,7 @@
 </p>
 
 <!-- ABOUT THE PROJECT -->
-## Screenshot
+### Screenshot
 <table>
   <tr>
     <td><img src="https://github.com/cepero91/MyMovieApp/blob/master/screenshot/splash.jpg" alt="splash" width="200"></td>
@@ -42,13 +42,13 @@
 </table>
 
 <!-- CONTRIBUTING -->
-## Tecnologías
+### Tecnologías
 
 1. Android Studio 3.6.3 
 2. Kotlin version 1.3.71
 3. Gradle distributions 6.3-all.zip
 
-## Frameworks y recursos utilizados
+### Frameworks y recursos utilizados
 
 1. Android Jetpack 
 2. MVVM 
@@ -60,6 +60,3 @@
 8. Material Design
 9. Preference
 10. Picasso
-
-### Algunas aclaraciones
-
