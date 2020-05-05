@@ -50,16 +50,15 @@
 
 ### Frameworks y recursos utilizados
 
-1. Android Jetpack 
+1. Android Jetpack (Livedata, ViewModel, Pagination, Room) 
 2. MVVM 
 3. Dagger2
 4. Retrofit3
-5. Livedata
-6. Coroutines
-7. Single Activity Pattern
-8. Material Design
-9. Preference
-10. Picasso
+5. Coroutines
+6. Single Activity Pattern
+7. Material Design
+8. Preference
+9. Picasso
 
 ### Caracteristicas
 
