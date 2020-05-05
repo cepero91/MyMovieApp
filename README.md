@@ -60,3 +60,13 @@
 8. Material Design
 9. Preference
 10. Picasso
+
+### Caracteristicas
+
+1. Listar películas en cartelera 
+2. Listar películas populares 
+3. Listar películas populares para niños
+4. Listar películas favoritas
+5. Ver detalle de películas
+6. Agregar películas a favoritas
+7. Cambiar visibilidad y label del menú lateral
