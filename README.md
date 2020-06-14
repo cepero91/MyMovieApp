@@ -53,7 +53,7 @@
 1. Android Jetpack (Livedata, ViewModel, Pagination, Room, Navigation, Preference) 
 2. MVVM 
 3. Dagger2
-4. Retrofit3
+4. Retrofit2
 5. Coroutines
 6. Single Activity Pattern
 7. Material Design
