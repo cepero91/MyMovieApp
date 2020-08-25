@@ -20,7 +20,7 @@ import dagger.android.support.AndroidSupportInjection
 import kotlinx.android.synthetic.main.fragment_favorite.*
 import javax.inject.Inject
 
-class FavoriteFragment : Fragment(), movieInteractionListener {
+class FavoriteFragment : Fragment(R.layout.fragment_favorite), movieInteractionListener {
 
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory
@@ -31,14 +31,6 @@ class FavoriteFragment : Fragment(), movieInteractionListener {
     override fun onAttach(context: Context) {
         AndroidSupportInjection.inject(this)
         super.onAttach(context)
-    }
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_favorite, container, false)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

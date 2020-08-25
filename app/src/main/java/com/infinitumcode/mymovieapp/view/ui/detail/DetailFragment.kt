@@ -24,7 +24,7 @@ import kotlinx.android.synthetic.main.fragment_detail.*
 import javax.inject.Inject
 
 
-class DetailFragment : Fragment(), View.OnClickListener {
+class DetailFragment : Fragment(R.layout.fragment_detail), View.OnClickListener {
 
     private var snackbar: Snackbar? = null
 
@@ -47,13 +47,6 @@ class DetailFragment : Fragment(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         viewModel = ViewModelProvider(this, viewModelFactory).get(DetailViewModel::class.java)
         movieResult = requireArguments().getParcelable("movie")
-    }
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_detail, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
