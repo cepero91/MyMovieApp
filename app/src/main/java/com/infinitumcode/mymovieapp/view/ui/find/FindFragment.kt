@@ -29,7 +29,7 @@ import kotlinx.android.synthetic.main.fragment_find.*
 import javax.inject.Inject
 
 
-class FindFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener,
+class FindFragment : Fragment(R.layout.fragment_find), SwipeRefreshLayout.OnRefreshListener,
     movieInteractionListener {
 
     private lateinit var searchView: SearchView
@@ -47,19 +47,11 @@ class FindFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener,
         super.onAttach(context)
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        findViewModel =
-            ViewModelProvider(this, viewModelFactory).get(FindViewModel::class.java)
-        return inflater.inflate(R.layout.fragment_find, container, false)
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
+        findViewModel =
+            ViewModelProvider(this, viewModelFactory).get(FindViewModel::class.java)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

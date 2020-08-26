@@ -21,7 +21,7 @@ import dagger.android.support.AndroidSupportInjection
 import kotlinx.android.synthetic.main.fragment_home.*
 import javax.inject.Inject
 
-class HomeFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener,
+class HomeFragment : Fragment(R.layout.fragment_home), SwipeRefreshLayout.OnRefreshListener,
     movieInteractionListener {
 
     @Inject
@@ -33,14 +33,6 @@ class HomeFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener,
     override fun onAttach(context: Context) {
         AndroidSupportInjection.inject(this)
         super.onAttach(context)
-    }
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
