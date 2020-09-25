@@ -1,4 +1,4 @@
-package com.infinitumcode.traimealgoowner.utils
+package com.infinitumcode.mymovieapp.util
 
 import android.util.Log
 import androidx.annotation.MainThread

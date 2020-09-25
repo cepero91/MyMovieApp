@@ -7,8 +7,8 @@ import com.infinitumcode.mymovieapp.data.Status
 import com.infinitumcode.mymovieapp.domain.pojo.MovieDetail
 import com.infinitumcode.mymovieapp.domain.pojo.MovieResult
 import com.infinitumcode.mymovieapp.domain.repository.MovieRepository
+import com.infinitumcode.mymovieapp.util.SingleLiveEvent
 import com.infinitumcode.mymovieapp.view.base.BaseViewModel
-import com.infinitumcode.traimealgoowner.utils.SingleLiveEvent
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

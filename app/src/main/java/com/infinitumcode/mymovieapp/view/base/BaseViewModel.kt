@@ -2,7 +2,7 @@ package com.infinitumcode.mymovieapp.view.base
 
 import androidx.lifecycle.ViewModel
 import androidx.paging.PagedList
-import com.infinitumcode.traimealgoowner.utils.SingleLiveEvent
+import com.infinitumcode.mymovieapp.util.SingleLiveEvent
 import kotlinx.coroutines.*
 
 open class BaseViewModel : ViewModel() {
