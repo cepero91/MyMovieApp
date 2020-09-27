@@ -64,21 +64,13 @@ class DetailFragment : Fragment(R.layout.fragment_detail), View.OnClickListener 
         })
         viewModel.movieIsFavorite(movieResult!!.id.toString())
             .observe(viewLifecycleOwner, Observer {
-                if (it.isNotEmpty()) {
-                    changeFavoriteIcon(true)
-                } else {
-                    changeFavoriteIcon(false)
-                }
+                changeFavoriteIcon(it.isNotEmpty())
             })
     }
 
     private fun changeFavoriteIcon(isFavorite: Boolean) {
         movieIsFavorite = isFavorite
-        if (isFavorite) {
-            ivFavorite.setImageResource(R.drawable.ic_favorite_black_24dp)
-        } else {
-            ivFavorite.setImageResource(R.drawable.ic_favorite_border_black_24dp)
-        }
+        ivFavorite.setImageResource(if (isFavorite) R.drawable.ic_favorite_black_24dp else R.drawable.ic_favorite_border_black_24dp)
     }
 
     private fun updateUI(resource: Resource<MovieDetail>?) {

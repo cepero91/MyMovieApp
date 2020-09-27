@@ -3,10 +3,9 @@ package com.infinitumcode.mymovieapp.domain.pagination
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.paging.PageKeyedDataSource
-import com.infinitumcode.mymovieapp.domain.pojo.MovieQuery
 import com.infinitumcode.mymovieapp.domain.pojo.MovieResult
 import com.infinitumcode.mymovieapp.domain.repository.MovieRepository
-import com.infinitumcode.traimealgoowner.utils.SingleLiveEvent
+import com.infinitumcode.mymovieapp.util.SingleLiveEvent
 import kotlinx.coroutines.*
 import retrofit2.Response
 import kotlin.coroutines.CoroutineContext
