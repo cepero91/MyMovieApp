@@ -7,12 +7,12 @@
   <h3 align="center">MOVIEAPP</h3>
 
   <p align="center">
-    Aplicación android para consulta TMDb API
+    Android App only for educational purpose
   </p>
 </p>
 <p align="center">
   <a href="https://github.com/cepero91/MyMovieApp/raw/master/MovieApp-debug.apk">
-    Descárgala aquí
+    Download
   </a>
 </p>
 
@@ -41,14 +41,7 @@
   </tr>
 </table>
 
-<!-- CONTRIBUTING -->
-### Tecnologías
-
-1. Android Studio 3.6.3 
-2. Kotlin version 1.3.71
-3. Gradle distributions 6.3-all.zip
-
-### Frameworks y recursos utilizados
+### Patterns and Third party libraries applied
 
 1. Android Jetpack (Livedata, ViewModel, Pagination, Room, Navigation, Preference) 
 2. MVVM 
@@ -59,12 +52,14 @@
 7. Material Design
 8. Picasso
 
-### Caracteristicas
+### Features
 
-1. Listar películas en cartelera 
-2. Listar películas populares 
-3. Listar películas populares para niños
-4. Listar películas favoritas
-5. Ver detalle de películas
-6. Agregar películas a favoritas
-7. Cambiar visibilidad y label del menú lateral
+1. Trending movies  
+2. Popular movies 
+3. Popular movies for child
+4. Favorite movies
+5. Movie details
+6. Change label and visibility of navigation drawer menu
+
+### Aditional Note
+This code has been discontinued, so it may not be up to date.On Other hand, feel free to make some pull to improvement it
